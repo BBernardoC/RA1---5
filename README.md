@@ -15,9 +15,9 @@
 
 
 ## Como executar o trabalho 
-Python main.py <Arquivoteste.txt> 
-após a execução irá ser gerado um arquivo em .S,você deve usar ele para testes no Cpulator 
-por fim você pode comparar os resultados do terminal com Cpulator.
+Python main.py <Arquivoteste.txt>  
+após a execução irá ser gerado um arquivo em .S,você deve usar ele para testes no Cpulator  
+por fim você pode comparar os resultados do terminal com Cpulator.  
 
 
 
