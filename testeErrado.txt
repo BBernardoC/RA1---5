@@ -1,0 +1,21 @@
+# Teste erros - Erros lexicos e sintaticos
+# Linha 1: caractere invalido '@'
+(3 @ 4 +)
+# Linha 2: parentese de fechamento faltando
+(3 4 +
+# Linha 3: parentese de abertura faltando
+3 4 +)
+# Linha 4: parentese fechando antes de completar
+(3 4 + ))
+# Linha 5: identificador desconhecido
+(3 4 XYZ)
+# Linha 6: numero mal formado (ponto sem digito depois)
+(3. 4 +)
+# Linha 7: parenteses invertidos
+)3 4 +(
+# Linha 8: duplo operador invalido
+(3 4 ++)
+# Linha 9: expressao vazia
+()
+# Linha 10: caractere especial invalido
+(3 4 &)
